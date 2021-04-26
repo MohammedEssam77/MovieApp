@@ -1,0 +1,141 @@
+ <resources>
+    <!-- BaseActivity -->
+    <string name="no_permission_dialog_message">تحتاج للسماح بالوصول للكتابة إلى وحدة التخزين الخارجية.</string>
+    <string name="no_permission_dialog_ok">موافق</string>
+    <string name="no_permission_dialog_cancel">إلغاء</string>
+    <string name="action_filter">تصفيه</string>
+
+    <!-- MainActivity -->
+    <string name="watched_upgrade_dialog_title"> تغيير الحقل المعاد مشاهدته</string>
+    <string name="watched_upgrade_dialog_message">يتم الآن تعيين جميع المواضع على أنها "مشاهدة" وفقًا لذلك ، يجب زيادة كل مشاهدات فيلم أو مسلسل عن طريق واحد للحفاظ على نفس المعنى.</string>
+    <string name="watched_upgrade_dialog_positive">نعم </string>
+    <string name="watched_upgrade_dialog_negative">لا</string>
+
+    <!-- CastActivity (quotes are to enforce the spaces) -->
+    <string name="place_of_birth">"مكان الميلاد: "</string>
+    <string name="birthday">" تاريخ الميلاد"</string>
+    <string name="no_biography">"لا يوجد سيرة ذاتية"</string>
+    <string name="cast_movie_title"> فريق البطولة</string>
+    <string name="crew_movie_title">طاقم العمل</string>
+
+    <!-- DetailActivity (quotes are to enforce the spaces) -->
+    <string name="movie_added">الفيلم المضاف</string>
+    <string name="series_added"> المسلسل المضاف</string>
+    <string name="show_added_error">حدث خطأ اثناء الاضافه إلى قاعده البيانات.</string>
+    <string name="start_date">"تاريخ البداية: "</string>
+    <string name="start_date_unknown">تاريخ البداية غير معروف.</string>
+    <string name="finish_date">"تاريخ الانتهاء: "</string>
+    <string name="finish_date_unknown">تاريخ الانتهاء غير معروف.</string>
+    <string name="times_watched">"عدد المشاهدات: "</string>
+    <string name="episodes_seen">"الحلقات المعروضة: "</string>
+    <string name="rating">"تقييم: "</string>
+    <string name="change_start_date_2">"تاريخ البداية: "</string>
+    <string name="change_finish_date_2">"تاريخ الانتهاء: "</string>
+    <string name="change_watched_times">"عدد المشاهدات: "</string>
+    <string name="cast_title"> فريق البطولة</string>
+    <string name="crew_title">طاقم العمل</string>
+    <string name="recommendations_title">الاقتراحات</string>
+    <string name="category_picker">حدد الفئة المناسبة</string>
+    <string-array name="categories">
+        <item>@string/watching</item>
+        <item>@string/plan_to_watch</item>
+        <item>@string/watched</item>
+        <item>@string/on_hold</item>
+        <item>@string/dropped</item>
+    </string-array>
+    <string name="show_category">"الفئة: "</string>
+
+    <!-- FilterActivity -->
+    <string name="sort_by">الفرز حسب</string>
+    <string name="default_sort">الافتراضي</string>
+    <string name="most_popular">الاكثر شعبية</string>
+    <string name="best_rated">الأعلي تقييم</string>
+    <string name="release_date">تاريخ الإصدار</string>
+    <string name="alphabetic_order">الترتيب الابجدي</string>
+    <string name="categories">الفئة</string>
+    <string name="watching">مشاهدة</string>
+    <string name="plan_to_watch">خطط للمشاهدة</string>
+    <string name="watched">مشاهدة</string>
+    <string name="on_hold">شاهد في وقت لاحق</string>
+    <string name="dropped">تراجع</string>
+    <string name="dates">تاريخ</string>
+    <string name="in_the_theater_right_now">اليوم في السينما</string>
+    <string name="between_two_dates">بين تاريخين</string>
+    <string name="end_date">"تاريخ الانتهاء: "</string>
+    <string name="genres">الانواع</string>
+    <string name="advanced">متقدم</string>
+    <string name="keyword_text"> يمكنك استبعاد الكلمات الرئيسية وتضمينها عن طريق وضع معرفاتها في مربع النص الخاص بها أدناه.</string>
+    <string name="with_keywords_hint">عرض الأفلام باستخدام الكلمات الرئيسية…</string>
+    <string name="without_keywords_hint">عدم عرض الأفلام باستخدام الكلمات الرئيسية…</string>
+
+    <!-- SectionsPagerAdapter -->
+    <string name="movie_tab_title">أفلام</string>
+    <string name="series_tab_title">مسلسلات</string>
+    <string name="saved_tab_title">الحفظ</string>
+    <string name="person_tab_title">ممثل</string>
+
+    <!-- MovieDatabaseHelper -->
+    <string name="write_to_external_storage_as">"تم الحفظ باسم: "</string>
+    <string name="write_to_external_storage_failed">لا يمكن الكتابة في وحدة التخزين الخارجية.</string>
+    <string name="choose_export_file">اختيار تنسيق ملف التصدير:</string>
+    <string-array name="export_import_formats">
+        <item>Database</item>
+        <item>JSON</item>
+    </string-array>
+    <string name="choose_file">حدد الملف الذي تريد استيراده:</string>
+    <string name="import_cancel">إلغاء الأمر</string>
+    <string name="file_not_found_exception">لم يتم العثور علي الملف!</string>
+
+    <!-- search_bar -->
+    <string name="hint_search">ابحث…</string>
+
+    <!-- database_menu -->
+    <string name="action_export">تصدير</string>
+    <string name="action_import">استيراد</string>
+
+    <!-- options_menu -->
+    <string name="action_search">البحث</string>
+
+    <!-- save_menu -->
+    <string name="action_save">حفظ</string>
+
+    <!-- Preferences -->
+    <string name="title_general">عام</string>
+    <string name="title_show_cast">إظهار الممثلين</string>
+    <string name="title_show_crew">إظهار طاقم العمل</string>
+    <string name="title_show_recommendations">إظهار التوصيات</string>
+    <string name="title_show_save_dialog">إظهار خيارات الاضافة</string>
+    <string name="title_persistent_filtering">تصفية دائمة</string>
+    <string name="summary_persistent_filtering">تصفية الأفلام تلقائيا عند بدء تشغيل التطبيق</string>
+    <string name="title_show_representation">عرض</string>
+    <string name="title_shows_in_grid">إظهار عروض الأفلام</string>
+    <string name="title_grid_size">حجم الشبكة</string>
+    <string name="summary_grid_size">عدد العناصر في صف واحد</string>
+    <string name="title_data_usage">البيانات المستخدمة</string>
+    <string name="title_live_search">استخدام البحث المباشر</string>
+    <string name="title_hide_tabs">إخفاء علامات التبويب</string>
+    <string name="summary_hide_tabs">يجب اعادة تشغيل التطبيق قبل تطبيق التغييرات.</string>
+    <string name="title_hide_movies_tab"> إخفاء الأفلام </string>
+    <string name="title_hide_series_tab">إخفاء المسلسلات</string>
+    <string name="title_hide_saved_tab">إخفاء الحفظ</string>
+    <string name="title_hide_person_tab">إخفاء الممثلين</string>
+    <string name="title_api_language">اللغة</string>
+    <string name="summary_api_language">اختيار لغة بيانات API (سيتم استخدام الإعدادات الافتراضية إذا تركتها فارغه).</string>
+    <string name="title_source_code">رمز </string>
+    <string name="text_tmdb_credits">هذا المنتج يستخدم API tmdb.</string>
+
+    <string name="action_settings">اعدادات</string>
+
+    <!-- (General) Toasts -->
+    <string name="no_internet_connection">لا يوجد اتصال بالإنترنت</string>
+    <string name="tmdb_server_unreachable">غير قادر علي الاتصال بالخدمة </string>
+
+    <!-- Image content descriptions -->
+    <string name="collapse_icon_description">تصغير العرض أو توسيعه</string>
+    <string name="image_description">صورة الفيلم</string>
+    <string name="person_image_description">صورة الممثل</string>
+    <string name="movie_image_description">صورة الفيلم</string>
+    <string name="edit_icon_description">تمكين وضع التعديل</string>
+     <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+
+ </resources>
